@@ -15,8 +15,8 @@ android.archs = arm64-v8a
 p4a.bootstrap = sdl2
 p4a.branch = master
 # 🔥 ده اللي هيمنع الكراش (السماح بالاتصال المحلي)
-android.manifest_attributes = android:usesCleartextTraffic="true"
 
 [buildozer]
 log_level = 2
 warn_on_root = 0
+android.uses_cleartext_traffic = True
